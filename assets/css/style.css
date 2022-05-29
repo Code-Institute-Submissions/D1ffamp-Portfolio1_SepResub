@@ -30,6 +30,27 @@ h2{
     letter-spacing: 4px;
 }
 
+/* navigation menu code to float to the right*/
+.navigation{
+    float: right;
+}
+
+.navigation ul {
+    text-align: right;
+  }
+.navigation li a {
+
+     float: right;
+    margin-right: 10px;
+  }
+
+  .navigation li {
+    display: inline-block;
+   /*float: right;*/
+   /* margin-right: 30px;*/
+}
+  
+
 #logo, #menu{
     line-height: 75px;
 }
@@ -307,4 +328,11 @@ footer{
       column-count: 2;
     }
   }
+
+  @media screen and (max-width: 414px) {
+    #logo{
+        font-size: 30px;
+    }
+
+}
   }
