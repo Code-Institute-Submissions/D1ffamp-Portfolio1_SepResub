@@ -1,14 +1,17 @@
 /* initial css code coppied from Love Running mini project https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/06_site_footer/02_footer_styling/assets/css/style.css */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
 *{
     margin:0;
     padding:0;
     border:0;
 }
+
 body{
     font-family: Lato;
     color: #777777;
 }
+
 /*************************Header***********************************************/
 h2{
     font-family: Oswald;
@@ -16,16 +19,19 @@ h2{
     letter-spacing: 4px;
     color: #555555;
 }
+
 #logo{
     float: left;
     font-size: 280%;
 }
+
 #menu{
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
    
 }
+
 #logo, #menu{
     line-height: 75px;
 }
@@ -33,6 +39,7 @@ h2{
 .navigation{
     float: right;
 }
+
 .navigation ul {
     text-align: right;
   }
@@ -41,34 +48,43 @@ h2{
      float: right;
     margin-right: 10px;
   }
+
   .navigation li {
     display: inline-block;
   }
   
+
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover{
     border-bottom: 1px solid #777777;
 }
+
 .active{
     border-bottom: 1px solid #777777;
 }
+
 #hero-image{
     height:600px;
     width: 100%;
     background: url("../images/D2 Image.jpg") no-repeat center center;
+
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 #hero-outer{
     height:600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -77,21 +93,28 @@ h2{
         transform: scale(1.1);
     }
 }
+
 #cover-text, #cover-text h2 {
     color: #ffffff;
 }
+
 #cover-text {
     font-size: 130%;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
+
+    width: 310px;
+    height: 240px;
+
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgba(241, 109, 107, .7);
+
+    background-color: rgba(145, 135, 135, 0.7);
+
     bottom: 30px;
     right: 150px;
+
     position: absolute;
 
 }
@@ -100,25 +123,30 @@ h2{
 #club-ethos{
     height: 600px;
 }
+
 #left-about{
     padding-top: 30px;
     width: 33%;
     float: left;
 }
+
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
+
 #center-about {
     width: 33%;
     margin: 0 auto;
 }
+
 hr {
     border-top: 1px solid #777777;
     width: 100%;
     margin: 5px 0;
 }
+
 .left-about-heading {
     width: 50%;
     float: right;
@@ -126,6 +154,7 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading {
     width: 50%;
     float: left;
@@ -133,14 +162,17 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading h2 {
     text-align: right;
 }
+
 #welcome {
     margin: 20px 0;
     text-align: center;
     font-size: 280%;
 }
+
 #circle-container {
     width: 300px;
     height: 300px;
@@ -151,6 +183,7 @@ hr {
     border-radius: 50%;
     margin: 0 auto;
 }
+
 #circle-cover-bg {
     background: url('../images/hunter.png') no-repeat center center;
     height: 100%;
@@ -160,13 +193,14 @@ hr {
 /************************bottom****************************/
 
 #times{
-    background-image: url('../images/footer\ image.jpg');
+    background-image: url('../images/footer\ image.jpg' );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
 }
+
 #times div {
     color: #fafafa;
     background-color: rgba(0,0,0, .6);
@@ -177,20 +211,24 @@ hr {
     text-align: center;
     margin: 2px;
 }
+
 #times h2 {
     color: #fafafa;
 }
-
  /*******************************************social links*/
 footer{
     height: 150px;
 }
+
 .social-networks{
     text-align: center;
+
 }
+
 .social-networks li{
     display: inline;
 }
+
 .social-networks i{
     font-size: 160%;
     margin: 1%;
@@ -202,7 +240,6 @@ footer{
 
 .form-section {
     clear: left;
-    /*background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");*/
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -253,6 +290,19 @@ footer{
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+ /*********gallery*/
+
+ #photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
 /***********************media resolutions***/
 
 @media screen and (max-width: 1393px) {
@@ -292,15 +342,13 @@ footer{
       border-bottom-color:#fff;
       padding:0;
     }
-
+  
     hr{
-    /*hr{
       display: none;
     }
-
-  */
-
-
+}
+ 
+  
   @media screen and (max-width: 943px){
   
     #menu{
@@ -339,6 +387,7 @@ footer{
   #photos{
     column-count: 3;
   }
+
   
   
   @media screen and (max-width: 800px) {
@@ -346,11 +395,12 @@ footer{
       column-count: 2;
     }
   }
-  }
+  
+
   @media screen and (max-width: 414px ) {
       #logo{
           font-size: 30px;
       }
       
   }
-}
+} 
