@@ -1,5 +1,5 @@
-!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
-  <!---- initial layout copied from Love Running mini project  https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/06_site_footer/02_footer_styling/index.html--> 
+  <!---- initial layout copied from Love Running mini project --> 
 <body>
 
     <header> 
@@ -19,9 +19,9 @@
         <div class="container">
             <nav class="navigation">
                 <ul id="menu">
-                    <li><a class="active" href="main.html">Home</a></li>
+                    <li><a href="main.html">Home</a></li>
                     <li><a href="gallery.html"> Gallery</a></li>
-                    <li><a href="form.html"> Sign Up</a></li>
+                    <li><a class="active" href="signup.html"> Sign Up</a></li>
                 </ul>
 
             </nav>
@@ -39,20 +39,20 @@
     <section  class="form-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
                 <div>
-                    <h2>Let's get you signed up!</h2>
+                    <h2>Join the clan!</h2>
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="first_name" required class="text-input" >
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="last_name" required class="text-input">
                     <label for="email">Email Address</label>
                     <input id="email" type="email" name="email_address" required class="text-input">
-                    <label for="road">Road</label>
+                    <label for="road">Steam</label>
                     <input id="road" type="radio" name="running_preference" value="road" required/>
-                    <label for="trail">Trail</label>
+                    <label for="trail">Playstation</label>
                     <input id="trail" type="radio" name="running_preference" value="trail"/>
                     <label for="both">Both</label>
                     <input id="both" type="radio" name="running_preference" value="both"/>
-                    <input type="submit" value="Let's Run!" class="join-button">
+                    <input type="submit" value="Let's Play!" class="join-button">
                 </div> 
         </form>
     </section>
