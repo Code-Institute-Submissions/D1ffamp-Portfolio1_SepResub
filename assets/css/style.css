@@ -12,7 +12,7 @@ body{
     color: #777777;
 }
 
-/*************************Header***********************************************/
+/**Header**/
 h2{
     font-family: Oswald;
     text-transform: uppercase;
@@ -118,7 +118,7 @@ h2{
     position: absolute;
 
 }
-/******************************centre section*/
+/**centre section**/
 
 #club-ethos{
     height: 600px;
@@ -190,7 +190,7 @@ hr {
     border-radius: 50%;
 }
 
-/************************bottom****************************/
+/**bottom**/
 
 #times{
     background-image: url('../images/footer\ image.jpg' );
@@ -215,7 +215,7 @@ hr {
 #times h2 {
     color: #fafafa;
 }
- /*******************************************social links*/
+ /**social links**/
 footer{
     height: 150px;
 }
@@ -243,7 +243,7 @@ footer{
     background-size: cover;
     background-position: center;
     height: 900px;
-    background-color: black;
+    background-color:white;
 }
 
 .signup-form {
@@ -291,7 +291,7 @@ footer{
     color: #f16c6b;
 }
 
- /*********gallery*/
+ /**gallery**/
 
  /** #photo {
     clear: both;
@@ -323,7 +323,7 @@ img:hover{
     opacity: 0.5;
     transition: 0.5s;
 }
-/***********************media resolutions***/
+/**media resolutions**/
 
 @media screen and (max-width: 1393px) {
 
