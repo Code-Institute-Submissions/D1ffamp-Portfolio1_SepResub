@@ -291,19 +291,7 @@ footer{
     color: #f16c6b;
 }
 
- /**gallery**/
-
- /** #photo {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
-}
-
-#photo img{
-    width: 100%;
-}
-**/
+ 
 /** Gallery flexbox taken fro Cem Eygi Media, link in readme**/
 .photo{
     display: flex;
@@ -404,18 +392,7 @@ img:hover{
     padding: 0 20px 0 20px;
   }
   
- /** #photos{
-    column-count: 3;
-  }
-
-  
-  
-  @media screen and (max-width: 800px) {
-    #photos{
-      column-count: 2;
-    }
-  }
-  **/
+ 
 
   @media screen and (max-width: 414px ) {
       #logo{
