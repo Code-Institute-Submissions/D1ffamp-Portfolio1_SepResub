@@ -1,7 +1,7 @@
 # This is the one lads
 
 This is the one lads is a sites that helps existing  clan members to arrange co-op sessions in the game Destiny 2. It also enables new people to request to join the clan in order play with more
-experienced clan members
+experienced clan members. This is the one lads is designed for existing and new Destiny2 players to come together to have a good gaming experience.
 
 ![Responsive view](./docs/am%20i%20responisve.png)
 
